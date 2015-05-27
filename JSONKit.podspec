@@ -7,4 +7,5 @@ Pod::Spec.new do |s|
   s.author   = 'John Engelhart'
   s.source   = { :git => 'https://github.com/Tomusm/JSONKit' }
   s.source_files   = 'JSONKit.*'
+  s.compiler_flags = '-fno-objc-arc'
 end
